@@ -1,0 +1,147 @@
+@media screen and (max-width: 992px) {
+    .menubar {
+        display: block;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .header-info-container {
+        width: 80%;
+    }
+
+    .batter-health-item-container {
+        grid-template-columns: repeat(2, 1fr);
+        row-gap: 50px;
+    }
+
+    .practice-container {
+        flex-direction: column-reverse;
+        gap: 30px;
+    }
+
+    .practice-info {
+        width: 80%;
+    }
+
+    .practice-img {
+        width: 80%;
+    }
+
+    .practice-img img {
+        border-radius: 30px
+    }
+
+    .diet-plan-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .latest-recipe-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    form {
+        width: 50%;
+    }
+
+    .seminar-schedule-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .team-profile {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .team-profile-2 {
+        flex-direction: column-reverse;
+    }
+
+    .team-profile-container {
+        row-gap: 50px;
+    }
+
+    .team-name,
+    .team-title {
+        text-align: center;
+    }
+
+    .recipe-blog-card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .location-info-container {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .nav-btn {
+        display: none;
+    }
+
+    .header-info-container {
+        width: 100%;
+    }
+
+    .header-info-title,
+    .practice-title,
+    .weekly-diet-title,
+    .latest-recipe-title,
+    .contact-title,
+    .seminar-schedule-title,
+    .latest-recipe-blog-title,
+    .location-info-title {
+        font-size: 3rem;
+    }
+
+    .batter-health-item-container {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .practice-info {
+        width: 100%;
+    }
+
+    .practice-img {
+        width: 100%;
+    }
+
+    .video-container {
+        height: 400px;
+    }
+
+    .diet-plan-container {
+        grid-template-columns: 1fr;
+    }
+
+    .latest-recipe-container {
+        grid-template-columns: 1fr;
+    }
+
+    form {
+        width: 90%;
+    }
+
+    .seminar-schedule-container {
+        grid-template-columns:  1fr;
+    }
+
+    .team-info-desc {
+        font-size: 1.5rem;
+    }
+
+    .team-section .container {
+        padding: 0px 20px;
+    }
+
+    .recipe-blog-card-container {
+        grid-template-columns: 1fr;
+    }
+
+    .location-info-container {
+        width: 100%;
+    }
+}
